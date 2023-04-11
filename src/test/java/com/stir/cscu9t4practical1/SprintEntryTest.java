@@ -140,7 +140,7 @@ public class SprintEntryTest {
         System.out.println("getRepetitions");
         Entry instance = new SprintEntry("Alice", 1, 2, 2003, 0, 16, 7, 300, 4, 2);
         int expResults = 4;
-        int result = instance.getRepetitions();
+        int result = instance.getrepetitions();
         assertEquals(expResult, result);
     }
     
@@ -152,7 +152,7 @@ public class SprintEntryTest {
         System.out.println("getRepetitions");
         Entry instance = new SprintEntry("Alice", 1, 2, 2003, 0, 16, 7, 300, 4, 2);
         int expResults = 2;
-        int result = instance.getRecovery();
+        int result = instance.getrecovery();
         assertEquals(expResult, result);
     }
 
